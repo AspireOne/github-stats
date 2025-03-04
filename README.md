@@ -3,11 +3,11 @@
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
-<a href="https://github.com/jstrieb/github-stats">
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
+<a href="https://github.com/aspireone/github-stats">
+<img src="https://github.com/aspireone/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/aspireone/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/aspireone/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/aspireone/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
 </a>
 
 Generate visualizations of GitHub user and repository statistics with GitHub
@@ -99,7 +99,7 @@ For more information on inaccuracies, see issue
    - These other values are added as secrets by default to prevent leaking
      information about private repositories. If you're not worried about that,
      you can change the values directly [in the Actions workflow
-     itself](https://github.com/jstrieb/github-stats/blob/05de1314b870febd44d19ad2f55d5e59d83f5857/.github/workflows/main.yml#L48-L53).
+     itself](https://github.com/aspireone/github-stats/blob/05de1314b870febd44d19ad2f55d5e59d83f5857/.github/workflows/main.yml#L48-L53).
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
    Workflow" on the right side of the screen to generate images for the first
@@ -112,12 +112,12 @@ For more information on inaccuracies, see issue
    following lines of code into your markdown content. Change the `username`
    value to your GitHub username.
    ```md
-   ![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-   ![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-light-mode-only)
+   ![](https://raw.githubusercontent.com/aspireone/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+   ![](https://raw.githubusercontent.com/aspireone/github-stats/master/generated/overview.svg#gh-light-mode-only)
    ```
    ```md
-   ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-   ![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-light-mode-only)
+   ![](https://raw.githubusercontent.com/aspireone/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+   ![](https://raw.githubusercontent.com/aspireone/github-stats/master/generated/languages.svg#gh-light-mode-only)
    ```
 9. Link back to this repository so that others can generate their own
    statistics images.
